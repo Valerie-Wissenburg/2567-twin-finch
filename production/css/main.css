@@ -1,5 +1,54 @@
 @charset "UTF-8";
 /* CSS Document */
+
+h1, h2 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 3.15em;
+  	line-height: 1.047619048em;
+	color:#cfa646;
+	margin:0 auto;
+}
+
+h3 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2em;
+	text-transform:uppercase;
+  	line-height: 1.047619048em;
+	color:#323132;
+	margin:0 auto;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+  	line-height: 1.65em;
+  	margin: 0 auto;
+	color:#323132;
+	text-align:left;
+}
+
+nav > ul > li {
+	display:inline-block;
+	text-decoration:none;
+	color:#cfa646;
+	text-transform:uppercase;
+	font-size:1.25em;
+}
+
+blockquote > p {
+	font-family: 'Abril Fatface', cursive;
+	font-size:1.875em;
+	color:#323132;
+}
+
+label {
+	font-family: 'Raleway', sans-serif;
+	font-size:1.25em;
+	text-transform:uppercase;
+	color:#323132;
+	
+}
+
 *, *:after, *:before {
 	box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -14,6 +63,11 @@
 .rows {
 	width:100%;
 	padding-bottom:20px;
+}
+
+.banner {
+	background-color:#434244;
+	width:100%;
 }
 
 /*-- clears all browsers, parents expands to the very height of children----- if you have a psueto selecter :after or :before you have to have content:" "; under it for it to work properly--*/

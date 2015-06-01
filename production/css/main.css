@@ -1,58 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
-
-h1, h2 {
-	font-family: 'Abril Fatface', cursive;
-	font-size: 3.15em;
-  	line-height: 1.047619048em;
-	color:#cfa646;
-	margin:0 auto;
-}
-
-h3 {
-	font-family: 'Abril Fatface', cursive;
-	font-size: 2em;
-	text-transform:uppercase;
-  	line-height: 1.047619048em;
-	color:#323132;
-	margin:0 auto;
-}
-
-p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.25em;
-  	line-height: 1.65em;
-  	margin: 0 auto;
-	color:#323132;
-	text-align:left;
-}
-
-nav > ul > li {
-	display:inline-block;
-	text-decoration:none;
-	color:#cfa646;
-	text-transform:uppercase;
-	font-size:1.25em;
-}
-
-blockquote > p {
-	font-family: 'Abril Fatface', cursive;
-	font-size:1.875em;
-	color:#323132;
-}
-
-label {
-	font-family: 'Raleway', sans-serif;
-	font-size:1.25em;
-	text-transform:uppercase;
-	color:#323132;
-	
-}
-
-*, *:after, *:before {
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
+body {
+	font-size:16pt;
 }
 
 .wrapper {
@@ -65,9 +14,119 @@ label {
 	padding-bottom:20px;
 }
 
+*, *:after, *:before {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+
 .banner {
 	background-color:#434244;
 	width:100%;
+}
+
+h1, h2 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 3.60rem;
+  	line-height: 1.047619048rem;
+	color:#cfa646;
+	margin:2rem 0 .5rem 0;
+}
+
+h3 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2rem;
+	text-transform:uppercase;
+	color:#323132;
+	margin:1.3rem 0 1rem 0;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25rem;
+  	margin:1rem auto;
+	line-height:1.60rem;
+	color:#323132;
+}
+
+.left-align p {
+	text-align:left;
+}
+
+.seasonal-big-text h3 {
+	font-size:2rem;
+	text-transform:uppercase;
+}
+
+.seasonal-big-text p {
+	font-size:1.75rem;
+	line-height:2rem;
+}
+
+nav > ul > li {
+	display:inline-block;
+	text-decoration:none;
+	color:#cfa646;
+	text-transform:uppercase;
+	font-size:1.25rem;
+}
+
+blockquote > p {
+	font-family: 'Abril Fatface', cursive;
+	font-size:1.875rem;
+	line-height:inherit;
+	color:#323132;
+}
+
+.characteristic-btn {
+	font-family:'Abril Fatface', cursive;
+	font-size:1.875rem;
+	text-transform:uppercase;
+	width:13.5rem;
+	padding-top:.3rem;
+	padding-right:.9rem;
+	padding-left:.9rem;
+	margin-top:1.50rem;
+	border:5px solid #323132;
+}
+
+a:hover {
+	background-color:#323132;
+	color:#cfa646;
+}
+
+#call-out-order {
+	font-family: 'Raleway', sans-serif;
+	color:#cfa646;
+	font-size:1.25rem;
+	text-transform:uppercase;
+}
+
+.center-block {
+	float:none !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+label {
+	font-family: 'Raleway', sans-serif;
+	font-size:1.25rem;
+	text-transform:uppercase;
+	color:#323132;
+}
+
+.social-media-btn {
+	width:4.6875rem;
+	height:3.625rem;
+	border:5px solid #d4b974;
+	color:#d4b974;
+	display:inline-block;
+	text-decoration:none;
+}
+
+.footer-gold p {
+	color:#d4b974;
 }
 
 /*-- clears all browsers, parents expands to the very height of children----- if you have a psueto selecter :after or :before you have to have content:" "; under it for it to work properly--*/

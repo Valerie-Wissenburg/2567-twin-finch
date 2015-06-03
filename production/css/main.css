@@ -1,147 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-body {
-	font-size:16pt;
-}
-
-.wrapper {
-	width:70%;
-	margin:0 auto;
-}
-
-.rows {
-	width:100%;
-	padding-bottom:20px;
-}
-
-*, *:after, *:before {
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-}
-
-
-.banner {
-	background-color:#434244;
-	width:100%;
-}
-
-h1, h2 {
-	font-family: 'Abril Fatface', cursive;
-	font-size: 3.60rem;
-  	line-height: 1.047619048rem;
-	color:#cfa646;
-	margin:7rem 0 2rem 0;
-}
-
-h3 {
-	font-family: 'Abril Fatface', cursive;
-	font-size: 2rem;
-	text-transform:uppercase;
-	color:#323132;
-	margin:1rem 0 1.5rem 0;
-}
-
-p {
-	font-family: 'Raleway', sans-serif;
-	font-size:1.15rem;
-  	margin:1rem auto;
-	line-height:1.7rem;
-	color:#323132;
-}
-
-.left-align p {
-	text-align:left;
-}
-
-.yellow-bg {
-	background-color: rgba(212, 185, 116, 0.8);
-	padding:1.5rem;
-	margin-top:1.4rem;
-}
-
-.seasonal-big-text h3 {
-	font-size:1.8rem;
-	text-transform:uppercase;
-}
-
-.seasonal-big-text p {
-	font-size:1.55rem;
-	line-height:2rem;
-	margin:1rem;
-}
-
-nav > ul > li {
-	display:inline-block;
-	text-decoration:none;
-	color:#cfa646;
-	text-transform:uppercase;
-	font-size:1.25rem;
-}
-
-blockquote > p {
-	font-family: 'Abril Fatface', cursive;
-	font-size:1.875rem;
-	line-height:inherit;
-	color:#323132;
-}
-
-.characteristic-btn {
-	font-family:'Abril Fatface', cursive;
-	font-size:1.875rem;
-	text-transform:uppercase;
-	display:inline-block;
-	padding-top:.3rem;
-	padding-right:.9rem;
-	padding-left:.9rem;
-	margin:1.75rem 0 3rem 0;
-	border:5px solid #323132;
-}
-
-a:hover {
-	background-color:#323132;
-	color:#cfa646;
-}
-
-#call-out-order {
-	font-family: 'Raleway', sans-serif;
-	color:#cfa646;
-	font-size:1.25rem;
-	text-transform:uppercase;
-}
-
-.center-block {
-	float:none !important;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-label {
-	font-family: 'Raleway', sans-serif;
-	font-size:1.25rem;
-	text-transform:uppercase;
-	color:#323132;
-}
-
-.social-media-btn {
-	width:4.6875rem;
-	height:3.625rem;
-	border:5px solid #d4b974;
-	color:#d4b974;
-	display:inline-block;
-	text-decoration:none;
-}
-
-.footer-gold p {
-	color:#d4b974;
-}
-
-/*-- clears all browsers, parents expands to the very height of children----- if you have a psueto selecter :after or :before you have to have content:" "; under it for it to work properly--*/
-.row:after {
-	content:" ";
-	display:table;
-	clear:both;
-}
 
 [class*='col-'] {
 	float:left;
@@ -198,6 +56,156 @@ label {
 .col-1-12 {
 	width:8.33333333%;
 }
+body {
+	font-size:16pt;
+}
+
+.wrapper {
+	width:70%;
+	margin:0 auto;
+}
+
+.rows {
+	width:100%;
+	padding-bottom:20px;
+}
+
+*, *:after, *:before {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+.img-responsive {
+	width:100%;
+}
+
+.banner {
+	background-color:#434244;
+	width:100%;
+}
+
+h1, h2 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 3.60rem;
+  	line-height: 1.047619048rem;
+	color:#cfa646;
+	margin:7rem 0 2rem 0;
+}
+
+h3 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2rem;
+	text-transform:uppercase;
+	color:#323132;
+	margin:1rem 0 1.5rem 0;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size:1.15rem;
+	line-height:1.7rem;
+	color:#323132;
+}
+
+.left-align p {
+	text-align:left;
+}
+
+.seasonal-big-text h3 {
+	font-size:1.8rem;
+	text-transform:uppercase;
+}
+
+.seasonal-big-text p {
+	font-size:1.55rem;
+	line-height:2rem;
+	margin:1rem;
+}
+
+nav > ul > li {
+	display:inline-block;
+	text-decoration:none;
+	color:#cfa646;
+	text-transform:uppercase;
+	font-size:1.25rem;
+}
+
+.yellow-bg {
+	background-color: rgba(212, 185, 116, 0.8);
+	padding:1.5rem;
+	margin-top:1.4rem;
+}
+
+#move-yellow-bg {
+	margin-top:15rem;
+}
+
+blockquote > p {
+	font-family: 'Abril Fatface', cursive;
+	font-size:1.875rem;
+	line-height:inherit;
+	color:#323132;
+}
+
+.characteristic-btn {
+	font-family:'Abril Fatface', cursive;
+	font-size:1.875rem;
+	text-transform:uppercase;
+	display:inline-block;
+	padding-top:.3rem;
+	padding-right:.9rem;
+	padding-left:.9rem;
+	margin:1.75rem 0 3rem 0;
+	border:5px solid #323132;
+}
+
+a:hover {
+	background-color:#323132;
+	color:#cfa646;
+}
+
+#call-out-order {
+	font-family: 'Raleway', sans-serif;
+	color:#cfa646;
+	font-size:1.25rem;
+	text-transform:uppercase;
+}
+
+.center-block {
+	float:none !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+label {
+	font-family: 'Raleway', sans-serif;
+	font-size:1.25rem;
+	text-transform:uppercase;
+	color:#323132;
+}
+
+.social-media-btn {
+	width:40px;
+	height:40px;
+	border:5px solid #d4b974;
+	display:inline-block;
+	text-decoration:none;
+}
+
+.footer-gold p {
+	color:#d4b974;
+}
+
+/*-- clears all browsers, parents expands to the very height of children----- if you have a psueto selecter :after or :before you have to have content:" "; under it for it to work properly--*/
+.row:after {
+	content:" ";
+	display:table;
+	clear:both;
+}
+
+
+
 
 @media screen and (max-width:768px) {
 .wrapper {
